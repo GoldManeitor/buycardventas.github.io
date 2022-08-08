@@ -1,0 +1,35 @@
+{
+    "CallCenterSellers": {
+        
+            "alexandra":{
+            
+            "nombre": "alexandra",
+            "id": "101"
+            },
+
+            "evelyn":{
+            
+                "nombre": "alexandra",
+                "id": "102"
+    
+            },
+            "francisco":{
+            
+                "nombre": "alexandra",
+                "id": "103"
+    
+            },
+            "eugenia":{
+            
+                "nombre": "alexandra",
+                "id": "104"
+    
+            },
+            "mariana":{
+            
+                "nombre": "alexandra",
+                "id": "105"
+    
+            }
+    }
+}
