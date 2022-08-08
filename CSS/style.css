@@ -341,7 +341,7 @@ transform: rotate(-230deg);
 
                                                             /*ASIDES*/
 
-#section_asides{
+/* #section_asides{
     height: 500px;
     width: 40%;
     margin-top: 30px;
@@ -351,10 +351,10 @@ transform: rotate(-230deg);
     align-items: center;
     justify-content: flex-start;
 
-}
+} */
 
 /* CAJA DE VENDEDORES */
-#sellers_container {
+/* #sellers_container {
     height: 100%;
     width: 100%;
     
@@ -395,4 +395,4 @@ transform: rotate(-230deg);
 .eachseller:hover {
     width: 97%;
     background-color: rgb(176, 182, 188);
-}
+} */
