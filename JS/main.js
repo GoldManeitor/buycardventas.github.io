@@ -30,12 +30,13 @@ function markCreator(number){
 
 generateAMarker();
 
-
 linkInput.onclick = () => setTimeout(() => {
+    
     let takeLastElement = document.getElementsByClassName(`component`);
-    for (const el of takeLastElement){
-        el.remove();
-    }
+    console.log(takeLastElement)
+   while(takeLastElement.length > 0){
+        takeLastElement[takeLastElement.length -1].remove();
+    };
     generateAMarker();
 
-}, 200);
+    }, 200);
