@@ -29,8 +29,7 @@ function createSellerData (name, sells, idvalue) {
 
 function addSell (sellerObject, input){
 
-    let addNumberOfSells = parseInt(sellerObject.sells) + parseInt(input);
-    sellerObject.sells = addNumberOfSells;
+    sellerObject.sells = input;
     localStorage.setItem(`${sellerObject.id}`, JSON.stringify(sellerObject))
 }
 
@@ -57,7 +56,7 @@ function generateARecord () {
 
         listOfReapeated.length === 1 ? addSell(listOfReapeated[0], submitList[1]) : createSellerData(sellersName[((id[0].value)[2])-1], submitList[1], submitList[0]);
         
-   
+        
 }
 
 // ___________________________________________________PROGRAMA___________________________________________________________________
