@@ -33,7 +33,7 @@ generateAMarker();
 
 linkInput.onclick = () => setTimeout(() => {
     let takeLastElement = document.getElementsByClassName(`component`);
-    await for (const el of takeLastElement){
+    for (const el of takeLastElement){
         el.remove();
     }
     generateAMarker();
