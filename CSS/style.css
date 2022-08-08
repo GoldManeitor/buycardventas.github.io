@@ -50,13 +50,14 @@ main {
     justify-content: space-evenly;
 
     min-width: 700px;
+
     flex-wrap: nowrap;
 }
 
 #section_principal_graph{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
 
     height: 500px;
@@ -76,12 +77,13 @@ main {
 
     height: 500px;
     width: 100%;
+    min-width: 570px;
+    max-width: 570px;
 
     background-color: aliceblue;
     border-radius: 8px;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 
-    margin-right: 20px;
 }
 
 .title_border {
