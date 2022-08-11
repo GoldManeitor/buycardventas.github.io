@@ -4,7 +4,7 @@ let linkButtonAdd = document.getElementById(`addSellButton`);
 let linkForm = document.getElementById(`adderForm`);
 
 let sellersName = [`Alexandra`, `Evelyn`, `Francisco`, `Eugenia`, `Mariana`];
-let photoList = [`/CALL CENTER IMG/Alexandra.jpg`,`/CALL CENTER IMG/Evelyn.jpg`, `/CALL CENTER IMG/Francisco.jpg`, `/CALL CENTER IMG/Eugenia.jpg`, `/CALL CENTER IMG/Mariana.jpg`]
+let photoList = [`../CALL CENTER IMG/Alexandra.jpg`,`../CALL CENTER IMG/Evelyn.jpg`, `../CALL CENTER IMG/Francisco.jpg`, `../CALL CENTER IMG/Eugenia.jpg`, `../CALL CENTER IMG/Mariana.jpg`]
 
 
 
