@@ -13,17 +13,17 @@ function generateAMarker() {
     for(let i=0 ; i < localStorage.length; i++){
         let Objectkey = localStorage.key(i);
         let StorageObject = JSON.parse(localStorage.getItem(Objectkey));
-        markCreator(StorageObject.sells);
+        markCreator(StorageObject.sells, StorageObject.photo);
     }
 }
 
 
-function markCreator(number){
+function markCreator(number, link){
     let marker = document.createElement(`div`);
-    linkMarkers[number].appendChild(marker);
+    linkMarkers[(number - 100) * (-1)].appendChild(marker);
 
     marker.className = `component`;
-    marker.innerHTML = `<div class="square"><div class="triangle"></div></div>`;
+    marker.innerHTML += `<div class="square"><div class="triangle"></div><img class="photo" src="${link}"></div>`;
 
 }
 //--------------------------------------------------------------------------------------------------------------------------
