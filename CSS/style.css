@@ -207,47 +207,108 @@ main {
         
     }
 
+/*___________________________________________INDICES______________________________________________*/
+
 .positionator_container {
 
     width: 30px;
-    height: 400px;
-    margin-left: -3px;
+    height: 340px;
+    margin-left: 20px;
+    margin-top: 60px;
 
-    display: flex;
+    /* display: flex;
     flex-direction: column-reverse;
     flex-wrap: none;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-start; */
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(101, 1fr );
+   
+    grid-auto-flow: column;
+    column-gap: 1px;
+    row-gap: 2px;
+    
 }
 
 
 .position {
-    width: 15px;
-    height: 1px;
-    margin: 1.16px;
-
+    width: 200px;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: baseline;
     flex-wrap: wrap-reverse;
+    max-height: 2px;
     
+   
+    
+}
+.position:hover{
+    z-index: 102;
 }
 
 .component{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: auto;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-content: flex-end;
+    margin-left: -20px 
+
+}
+.component2{
+    height: 35px;
+    width: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-end;
+
+    ;
+
 }
 
 .square {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     background: rgb(225, 232, 238);
     border-radius: 50%;
 
     transform: rotate(20deg);
     box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.25);
+    transition: all .2s;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+
+}
+
+.square:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.photo {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    position: absolute;
+    top: -5px;
+   
+    border-radius: 50%;
+    border: 5px solid rgb(225, 232, 238);
+    transform: rotate(355deg);
+    transition: all .2s;
+}
+.photo:hover {
+    width: 45px;
+    height: 45px;
 }
 
 .triangle{
@@ -396,3 +457,420 @@ transform: rotate(-230deg);
     width: 97%;
     background-color: rgb(176, 182, 188);
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ____________________________________ CADA CONTENEDOR DE COMPONENT _______________________________________________*/
+
+.pos0 {
+    z-index: 1;
+}
+
+.pos1 {
+    z-index: 2;
+}
+
+.pos2 {
+    z-index: 3;
+}
+
+.pos3 {
+    z-index: 4;
+}
+
+.pos4 {
+    z-index: 5;
+}
+
+.pos5 {
+    z-index: 6;
+}
+
+.pos6 {
+    z-index: 7;
+}
+
+.pos7 {
+    z-index: 8;
+}
+
+.pos8 {
+    z-index: 9;
+}
+
+.pos9 {
+    z-index: 10;
+}
+
+.pos10 {
+    z-index: 11;
+}
+
+.pos11 {
+    z-index: 12;
+}
+
+.pos12 {
+    z-index: 13;
+}
+
+.pos13 {
+    z-index: 14;
+}
+
+.pos14 {
+    z-index: 15;
+}
+
+.pos15 {
+    z-index: 16;
+}
+
+.pos16 {
+    z-index: 17;
+}
+
+.pos17 {
+    z-index: 18;
+}
+
+.pos18 {
+    z-index: 19;
+}
+
+.pos19 {
+    z-index: 20;
+}
+
+.pos20 {
+    z-index: 21;
+}
+
+.pos21 {
+    z-index: 22;
+}
+
+.pos22 {
+    z-index: 23;
+}
+
+.pos23 {
+    z-index: 24;
+}
+
+.pos24 {
+    z-index: 25;
+}
+
+.pos25 {
+    z-index: 26;
+}
+
+.pos26 {
+    z-index: 27;
+}
+
+.pos27 {
+    z-index: 28;
+}
+
+.pos28 {
+    z-index: 29;
+}
+
+.pos29 {
+    z-index: 30;
+}
+
+.pos30 {
+    z-index: 31;
+}
+
+.pos31 {
+    z-index: 32;
+}
+
+.pos32 {
+    z-index: 33;
+}
+
+.pos33 {
+    z-index: 34;
+}
+
+.pos34 {
+    z-index: 35;
+}
+
+.pos35 {
+    z-index: 36;
+}
+
+.pos36 {
+    z-index: 37;
+}
+
+.pos37 {
+    z-index: 38;
+}
+
+.pos38 {
+    z-index: 39;
+}
+
+.pos39 {
+    z-index: 40;
+}
+
+.pos40 {
+    z-index: 41;
+}
+
+.pos41 {
+    z-index: 42;
+}
+
+.pos42 {
+    z-index: 43;
+}
+
+.pos43 {
+    z-index: 44;
+}
+
+.pos44 {
+    z-index: 45;
+}
+
+.pos45 {
+    z-index: 46;
+}
+
+.pos46 {
+    z-index: 47;
+}
+
+.pos47 {
+    z-index: 48;
+}
+
+.pos48 {
+    z-index: 49;
+}
+
+.pos49 {
+    z-index: 50;
+}
+
+.pos50 {
+    z-index: 51;
+}
+
+.pos51 {
+    z-index: 52;
+}
+
+.pos52 {
+    z-index: 53;
+}
+
+.pos53 {
+    z-index: 54;
+}
+
+.pos54 {
+    z-index: 55;
+}
+
+.pos55 {
+    z-index: 56;
+}
+
+.pos56 {
+    z-index: 57;
+}
+
+.pos57 {
+    z-index: 58;
+}
+
+.pos58 {
+    z-index: 59;
+}
+
+.pos59 {
+    z-index: 60;
+}
+
+.pos60 {
+    z-index: 61;
+}
+
+.pos61 {
+    z-index: 62;
+}
+
+.pos62 {
+    z-index: 63;
+}
+
+.pos63 {
+    z-index: 64;
+}
+
+.pos64 {
+    z-index: 65;
+}
+
+.pos65 {
+    z-index: 66;
+}
+
+.pos66 {
+    z-index: 67;
+}
+
+.pos67 {
+    z-index: 68;
+}
+
+.pos68 {
+    z-index: 69;
+}
+
+.pos69 {
+    z-index: 70;
+}
+
+.pos70 {
+    z-index: 71;
+}
+
+.pos71 {
+    z-index: 72;
+}
+
+.pos72 {
+    z-index: 73;
+}
+
+.pos73 {
+    z-index: 74;
+}
+
+.pos74 {
+    z-index: 75;
+}
+
+.pos75 {
+    z-index: 76;
+}
+
+.pos76 {
+    z-index: 77;
+}
+
+.pos77 {
+    z-index: 78;
+}
+
+.pos78 {
+    z-index: 79;
+}
+
+.pos79 {
+    z-index: 80;
+}
+
+.pos80 {
+    z-index: 81;
+}
+
+.pos81 {
+    z-index: 82;
+}
+
+.pos82 {
+    z-index: 83;
+}
+
+.pos83 {
+    z-index: 84;
+}
+
+.pos84 {
+    z-index: 85;
+}
+
+.pos85 {
+    z-index: 86;
+}
+
+.pos86 {
+    z-index: 87;
+}
+
+.pos87 {
+    z-index: 88;
+}
+
+.pos88 {
+    z-index: 89;
+}
+
+.pos89 {
+    z-index: 90;
+}
+
+.pos90 {
+    z-index: 91;
+}
+
+.pos91 {
+    z-index: 92;
+}
+
+.pos92 {
+    z-index: 93;
+}
+
+.pos93 {
+    z-index: 94;
+}
+
+.pos94 {
+    z-index: 95;
+}
+
+.pos95 {
+    z-index: 96;
+}
+
+.pos96 {
+    z-index: 97;
+}
+
+.pos97 {
+    z-index: 98;
+}
+
+.pos98 {
+    z-index: 99;
+}
+
+.pos99 {
+    z-index: 100;
+}
+
+.pos100 {
+    z-index: 101;
+}
