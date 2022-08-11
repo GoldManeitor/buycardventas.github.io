@@ -1,13 +1,13 @@
 /* FUENTES */
 @font-face {
     font-family: 'BebasNeue';
-    src: url('/Fonts/BebasNeue/BebasNeue-Regular.woff2') format('woff2'),
-        url('/Fonts/BebasNeue/BebasNeue-Regular.woff') format('woff');
+    src: url('../Fonts/BebasNeue/BebasNeue-Regular.woff2') format('woff2'),
+        url('../Fonts/BebasNeue/BebasNeue-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'LouisGeorge';
-    src: url('/Fonts/LouisGeorge/Louis\ George\ Cafe.ttf');
+    src: url('../Fonts/LouisGeorge/Louis\ George\ Cafe.ttf');
 }
 
 /* ////////////////////////////// */
